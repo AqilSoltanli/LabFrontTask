@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+
+.header{
+    
+    background-color:#414B4F;
+    padding:0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    margin-left: 5rem;
+}
+
+.right{
+    margin-right: 5rem;
+}
+
+.left li{
+    font-size: 12px;
+}
+
+.right li{
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.header .left{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header .right{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header .left li{
+    color: white;
+    font-weight: bold;
+}
+
+.header .right li{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+.main{
+    padding: 1rem 5rem;
+    background-image: url(https://www.nastol.com.ua/download.php?img=201505/1600x900/nastol.com.ua-137428.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 15rem;
+    
+}
+
+.head a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+
+.head a{
+    margin-left: 20px;
+}
+
+.bottom{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.bottom button{
+    border: none;
+    background-color: #FFB300;
+    color: black;
+    padding: 17px 32px;
+    cursor: pointer;
+    margin-top: 2rem;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.bottom p{
+    font-size: 27px;
+    color: white;
+}
+
+.bottom h3{
+    font-size: 45px;
+    color: white;
+}
+
+
+.search-bar i{
+      border: 3px solid  #FFB300;
+      display:  inline-block;
+      padding: 10px 15px;
+      color: white;
+      cursor: pointer;
+     
+}
+
+.search-bar:hover{
+    background-color: #FFB300;
+}
+
+.main img{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.why{
+  text-align: center;
+  
+}
+
+.why h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.second hr{
+    width: 5%;
+    margin: auto;
+    background:orange;
+    border: none;
+    height: 5px;
+    border-radius: 5px;
+    margin-bottom: 5rem;
+}
+
+.second{
+    padding: 10rem;
+}
+
+.bx{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.bx h4{
+    margin-top: 1rem;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.bx p{
+    font-size: 14px;
+    margin-left: 5px
+}
+
+.png {
+  
+    display: flex;
+    justify-content: space-between;
+}
+
+.png i{
+   font-size: 60px;
+   margin-left: 3rem;
+   color: white;
+
+}
+
+
+.bx i{
+    background-color: #26BDF7;
+    border-radius: 100%;
+    padding: 2.5rem;
+}
+
+
+
+.al{
+    text-align: center;
+    padding: 5rem;
+}
+
+.al hr{
+    width: 25%;
+    margin: auto;
+    background:orange;
+    border: none;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.al .txt{
+    margin-bottom: 2rem;
+}
+
+.al .txt p{
+    font-size: 1rem;
+    
+}
+
+.al .txt h3{
+    font-size: 22px;
+}
+
+.box .imgg:hover{
+    filter: grayscale(1)
+}
+
+.al .box img{
+    width: 100%;
+    border-radius: 100%;
+}
+.imgg{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    transition:0.5s;
+    filter: grayscale(0);
+}
+
+.botom{
+    background-image: url("https://travelwp.physcode.com/wp-content/uploads/2016/09/bg-pallarax.jpg");
+    padding: 15rem;
+    background-position: center;
+    background-size: cover;
+}
+
+.text{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.text p{
+    font-size: 1rem;
+    color: white;
+
+}
+
+.text h3{
+     font-size: 22px;
+     font-weight: bold;
+     color: white;
+}
+
+
+
+.botom i{
+    color: white;
+    width: 23%;
+    
+}
+
+.botom hr{
+    width: 25%;
+    margin: auto;
+    background:orange;
+    border: none;
+    height: 5px;
+    border-radius: 5px;
+}
+
+
